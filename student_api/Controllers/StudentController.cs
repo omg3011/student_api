@@ -29,7 +29,7 @@ namespace student_api.Controllers
       //-- W/ Auto Mapper: Map dataModel->student into domainModel->student
       return Ok(mapper.Map<List<DomainModels.Student>>(dataModelStudents));
 
-      //-- W/o Auto Mapper
+      //-- W/o Auto Mapper zxczxczc
       //var domainModelStudents = new List<DomainModels.Student>();
       //foreach (var student in dataModelStudents)
       //{
